@@ -16,3 +16,9 @@ if (!output) throw "Output container not found.";
 
 //@ts-check
 // your code starts after this line
+
+for (let N = 0; N <= 10; N++) {
+	for (let index = 0; index <= 10; index++) {
+		console.log(N * index);
+	}
+}
