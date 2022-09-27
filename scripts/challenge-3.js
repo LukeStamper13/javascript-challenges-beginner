@@ -23,3 +23,20 @@ const input = document.getElementById("kilometers");
 const button = document.getElementById("calculate");
 
 // your code starts after this line
+
+function converter(kilometers) {
+	let miles = kilometers / 1.609;
+	return miles;
+}
+
+let calcFromInput = () => {
+	let miles = converter(input.value);
+	output.innerText = miles;
+};
+
+button.addEventListener("click", calcFromInput);
+window.addEventListener("keypress", (eve) => {
+	if (eve.code === "Enter") {
+		calcFromInput();
+	}
+});
