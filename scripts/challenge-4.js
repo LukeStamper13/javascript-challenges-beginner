@@ -20,3 +20,21 @@ if (!output) throw "Output container not found.";
 
 //@ts-check
 // your code starts after this line
+
+let negAndPos = [
+	-10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+];
+
+let intAndDec = [
+	-10.9,
+	-10.8,
+	-10.7,
+	-10.6,
+	-10.5,
+	-10.4,
+	-10.3,
+	-10.2,
+	-10.1,
+	-10,
+	
+];
